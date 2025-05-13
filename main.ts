@@ -17,4 +17,13 @@ namespace Morsen {
         pins.digitalWritePin(DigitalPin.P0, 0)
         basic.pause(200)
     }
+    //% block
+    export function PauseZwischenBuchstaben() {
+        basic.pause(1000)
+    }
+    //% block
+    export function PauseZwischenWorten() {
+        basic.pause(2000)
+    }
+
 }
